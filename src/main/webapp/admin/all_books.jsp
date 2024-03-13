@@ -12,6 +12,12 @@
 <meta charset="ISO-8859-1">
 <title>Admin: All Books</title>
 <%@include file='allCss.jsp' %>
+<style>
+    body {
+        background-image: url('../img/book4.jpg');
+        background-size: cover;
+    }
+</style>
 </head>
 <body>
 <%@include file="navbar.jsp" %>
@@ -72,8 +78,16 @@
 	  </tbody>
 	</table>
 
-<div class="container-fluid fixed-bottom">
+<%-- <div class="container-fluid fixed-bottom">
 	<%@include file="footer.jsp" %>
+</div> --%>
+<%-- <div class="container-fluid fixed-bottom"">
+    <%@include file="footer.jsp" %>
+</div> --%>
+<div class="container-fluid" style="margin-top: 15px;">
+	<%-- <%@include file="footer.jsp" %> --%>
+	<%@include file="../all_component/footer.jsp" %>
 </div>
+
 </body>
 </html>

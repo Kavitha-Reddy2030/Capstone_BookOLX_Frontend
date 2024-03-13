@@ -61,6 +61,9 @@
 	   
 	  </tbody>
 	</table>
-
+<div class="container-fluid" style="margin-top: 15px;">
+	<%-- <%@include file="footer.jsp" %> --%>
+	<%@include file="../all_component/footer.jsp" %>
+</div>
 </body>
 </html>

@@ -180,6 +180,7 @@
             <input type="submit" value="Verify OTP">
         </form>
     </div>
+    <%@include file="all_component/footer.jsp" %>
 </body>
 </html>
  

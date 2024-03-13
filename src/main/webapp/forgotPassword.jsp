@@ -121,5 +121,6 @@ input[type="submit"]:hover {
             <input type="submit" value="Reset Password">
         </form>
     </div>
+    <%@include file="all_component/footer.jsp" %>
 </body>
 </html>

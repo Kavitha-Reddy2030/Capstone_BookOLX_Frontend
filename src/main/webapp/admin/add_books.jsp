@@ -9,7 +9,8 @@
 <title>Admin: Add Books</title>
 <%@include file='allCss.jsp' %>
 </head>
-<body style="background-color: #f0f2f2;">
+<!-- <body style="background-color: #f0f2f2;"> -->
+<body style="background-image: url('../img/book.jpg'); background-size: cover; background-position: center; background-attachment: fixed; background-color: #f7f7f7;">
 <%@include file="navbar.jsp" %>
 
 	<c:if test="${empty userObj}">
@@ -18,8 +19,8 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 offset-md-4">
-				<div class="card m-3">
+			<div class="col-md-4 offset-md-6">
+				<div class="card m-3" style="background-color: rgba(173, 216, 230, 0.5);">
 					<div class="card-body">
 						<h4 class="text-center text-success">Add Books</h4>
 						
@@ -81,7 +82,8 @@
 		</div>
 	</div>
 <div class="container-fluid" style="margin-top: 15px;">
-	<%@include file="footer.jsp" %>
+	<%-- <%@include file="footer.jsp" %> --%>
+	<%@include file="../all_component/footer.jsp" %>
 </div>
 </body>
 </html>

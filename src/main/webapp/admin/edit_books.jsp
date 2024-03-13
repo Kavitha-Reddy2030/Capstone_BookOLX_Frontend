@@ -71,8 +71,12 @@
 			</div>
 		</div>
 	</div>
-<div class="container-fluid" style="margin-top: 15px;">
+<%-- <div class="container-fluid" style="margin-top: 15px;">
 	<%@include file="footer.jsp" %>
+</div> --%>
+<div class="container-fluid" style="margin-top: 15px;">
+	<%-- <%@include file="footer.jsp" %> --%>
+	<%@include file="../all_component/footer.jsp" %>
 </div>
 </body>
 </html>

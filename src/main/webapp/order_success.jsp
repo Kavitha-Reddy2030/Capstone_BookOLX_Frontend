@@ -57,6 +57,6 @@
 		<a href="order.jsp" class="btn btn-danger mt-3">View Order</a>
 		
 	</div>
-	
+	<%@include file="all_component/footer.jsp" %>
 </body>
 </html>
